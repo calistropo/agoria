@@ -1,11 +1,10 @@
 package engines
 
 import akka.actor.{Actor, Props}
-import com.auditest.models.CountPerTile
 import com.google.inject.{Inject, Singleton}
 import engines.LastCountsActor.{Get, Push}
 import middleware.KafkaApi
-import models.VehicleEvent
+import models.CountPerTile
 import util.RottingList
 
 import scala.compat.Platform

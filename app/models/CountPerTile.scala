@@ -1,4 +1,4 @@
-package com.auditest.models
+package models
 
 import play.api.libs.json.Json
 
